@@ -13,9 +13,9 @@ public class MaximumAmongThree<T> {
         return maximumNumber;
     }
     public static void main(String[] args) {
-        System.out.println("The max Number Among Three String numbers is:-\n " + maximumAmongThree("virat", "rahul", "rohit"));
-        System.out.println("The max Number Among Three Integer numbers is:-\n " + maximumAmongThree(98, 56, 67));
-        System.out.println("The max Number Among Three Float numbers is:-\n " + maximumAmongThree(38.9f, 49.3f, 95.6f));
+        System.out.println("The max Number Among Three String numbers is:-\n " + maximumAmongThree("virat", "ABD", "rohit"));
+        System.out.println("The max Number Among Three Integer numbers is:-\n " + maximumAmongThree(18, 17, 45));
+        System.out.println("The max Number Among Three Float numbers is:-\n " + maximumAmongThree(18.0f, 17.5f, 45.6f));
     }
 }
 
