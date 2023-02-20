@@ -1,7 +1,7 @@
 package com.maximum;
 public class MaximumAmongThree {
-    public static <Integer extends Comparable<Integer>> Integer maximumInteger(Integer number1, Integer number2, Integer number3) {
-        Integer maximumNumber = number1;
+    public static <Float extends Comparable<Float>> Float maximumFloat(Float number1, Float number2, Float number3) {
+        Float maximumNumber = number1;
         if (number1.compareTo(number2) > 0 && number1.compareTo(number3) > 0)
             maximumNumber = number1;
         else if (number2.compareTo(number1) > 0 && number2.compareTo(number3) > 0)
@@ -11,6 +11,6 @@ public class MaximumAmongThree {
         return maximumNumber;
     }
     public static void main(String[] args) {
-        System.out.println("Maximum Number among 3 will be: " + maximumInteger(18, 7, 9));
+        System.out.println("Maximum Number among 3 will be: " + maximumFloat(18.5f, 7.7f, 9.8f));
     }
 }
